@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+
+# VSCode files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Replit
+.replit
+.replit.nix
+
+# SQLite DB (agar chaho to ignore)
+*.db
+bn.json
+en-US.json
+gu.json
+he-IL.json
+hi.json
+ja.json
+mr.json
+kn.json
+ml.json
+ta.json
+nl.json
+zh-CN.json
+te.json
+

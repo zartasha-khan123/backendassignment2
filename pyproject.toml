@@ -1,0 +1,13 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+run = "uvicorn main:app --host=0.0.0.0 --port=8000 --reload"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi[standard]>=0.116.1",
+    "openai-agents>=0.1.0",
+    "pydantic>=2.11.7",
+]
